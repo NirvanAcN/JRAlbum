@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067269FC496A1F17DFA45E5C /* Pods_JRAlbumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6A4C5211CF40588B14182C /* Pods_JRAlbumTests.framework */; };
+		2B38E8F51F67DCEB00EBE673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38E8F41F67DCEB00EBE673 /* AppDelegate.swift */; };
+		2B38E8F71F67DCEB00EBE673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38E8F61F67DCEB00EBE673 /* ViewController.swift */; };
+		2B38E8FA1F67DCEB00EBE673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B38E8F81F67DCEB00EBE673 /* Main.storyboard */; };
+		2B38E8FC1F67DCEB00EBE673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B38E8FB1F67DCEB00EBE673 /* Assets.xcassets */; };
+		2B38E8FF1F67DCEB00EBE673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B38E8FD1F67DCEB00EBE673 /* LaunchScreen.storyboard */; };
+		2B38E90A1F67DCEB00EBE673 /* JRAlbumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B38E9091F67DCEB00EBE673 /* JRAlbumTests.swift */; };
+		9AC9E248006B98C83FE09A34 /* Pods_JRAlbum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F475A971FBFFA75362DD5E23 /* Pods_JRAlbum.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B38E9061F67DCEB00EBE673 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B38E8E91F67DCEB00EBE673 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B38E8F01F67DCEB00EBE673;
+			remoteInfo = JRAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B38E8F11F67DCEB00EBE673 /* JRAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B38E8F41F67DCEB00EBE673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B38E8F61F67DCEB00EBE673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B38E8F91F67DCEB00EBE673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B38E8FB1F67DCEB00EBE673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B38E8FE1F67DCEB00EBE673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B38E9001F67DCEB00EBE673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B38E9051F67DCEB00EBE673 /* JRAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B38E9091F67DCEB00EBE673 /* JRAlbumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRAlbumTests.swift; sourceTree = "<group>"; };
+		2B38E90B1F67DCEB00EBE673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32C01C9066A4C0CA7B500110 /* Pods-JRAlbum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAlbum.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRAlbum/Pods-JRAlbum.debug.xcconfig"; sourceTree = "<group>"; };
+		459BA54737BF63B8E9BA2BE1 /* Pods-JRAlbum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAlbum.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRAlbum/Pods-JRAlbum.release.xcconfig"; sourceTree = "<group>"; };
+		5D3FD3472BFC1FF8E2473E6B /* Pods-JRAlbumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAlbumTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JRAlbumTests/Pods-JRAlbumTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BE8C1B75B986116CC70BDCD /* Pods-JRAlbumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JRAlbumTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JRAlbumTests/Pods-JRAlbumTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6A4C5211CF40588B14182C /* Pods_JRAlbumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRAlbumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F475A971FBFFA75362DD5E23 /* Pods_JRAlbum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JRAlbum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B38E8EE1F67DCEB00EBE673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC9E248006B98C83FE09A34 /* Pods_JRAlbum.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B38E9021F67DCEB00EBE673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067269FC496A1F17DFA45E5C /* Pods_JRAlbumTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B38E8E81F67DCEB00EBE673 = {
+			isa = PBXGroup;
+			children = (
+				2B38E8F31F67DCEB00EBE673 /* JRAlbum */,
+				2B38E9081F67DCEB00EBE673 /* JRAlbumTests */,
+				2B38E8F21F67DCEB00EBE673 /* Products */,
+				33CB1CD8CE6B2C7EB71E8789 /* Pods */,
+				DC79200D2E985AC07C42FC41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2B38E8F21F67DCEB00EBE673 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B38E8F11F67DCEB00EBE673 /* JRAlbum.app */,
+				2B38E9051F67DCEB00EBE673 /* JRAlbumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B38E8F31F67DCEB00EBE673 /* JRAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				2B38E8F41F67DCEB00EBE673 /* AppDelegate.swift */,
+				2B38E8F61F67DCEB00EBE673 /* ViewController.swift */,
+				2B38E8F81F67DCEB00EBE673 /* Main.storyboard */,
+				2B38E8FB1F67DCEB00EBE673 /* Assets.xcassets */,
+				2B38E8FD1F67DCEB00EBE673 /* LaunchScreen.storyboard */,
+				2B38E9001F67DCEB00EBE673 /* Info.plist */,
+			);
+			path = JRAlbum;
+			sourceTree = "<group>";
+		};
+		2B38E9081F67DCEB00EBE673 /* JRAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B38E9091F67DCEB00EBE673 /* JRAlbumTests.swift */,
+				2B38E90B1F67DCEB00EBE673 /* Info.plist */,
+			);
+			path = JRAlbumTests;
+			sourceTree = "<group>";
+		};
+		33CB1CD8CE6B2C7EB71E8789 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C01C9066A4C0CA7B500110 /* Pods-JRAlbum.debug.xcconfig */,
+				459BA54737BF63B8E9BA2BE1 /* Pods-JRAlbum.release.xcconfig */,
+				6BE8C1B75B986116CC70BDCD /* Pods-JRAlbumTests.debug.xcconfig */,
+				5D3FD3472BFC1FF8E2473E6B /* Pods-JRAlbumTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC79200D2E985AC07C42FC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F475A971FBFFA75362DD5E23 /* Pods_JRAlbum.framework */,
+				EA6A4C5211CF40588B14182C /* Pods_JRAlbumTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B38E8F01F67DCEB00EBE673 /* JRAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B38E90E1F67DCEB00EBE673 /* Build configuration list for PBXNativeTarget "JRAlbum" */;
+			buildPhases = (
+				A0E6E6A7AB4E0FE4211474F6 /* [CP] Check Pods Manifest.lock */,
+				2B38E8ED1F67DCEB00EBE673 /* Sources */,
+				2B38E8EE1F67DCEB00EBE673 /* Frameworks */,
+				2B38E8EF1F67DCEB00EBE673 /* Resources */,
+				C683BE93D8DCA7EC4AF5B510 /* [CP] Embed Pods Frameworks */,
+				B85C13BB75055AABBAE90E21 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRAlbum;
+			productName = JRAlbum;
+			productReference = 2B38E8F11F67DCEB00EBE673 /* JRAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B38E9041F67DCEB00EBE673 /* JRAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B38E9111F67DCEB00EBE673 /* Build configuration list for PBXNativeTarget "JRAlbumTests" */;
+			buildPhases = (
+				2F491AD9802181A175690A8B /* [CP] Check Pods Manifest.lock */,
+				2B38E9011F67DCEB00EBE673 /* Sources */,
+				2B38E9021F67DCEB00EBE673 /* Frameworks */,
+				2B38E9031F67DCEB00EBE673 /* Resources */,
+				F161A75C0376A21849AF05D9 /* [CP] Embed Pods Frameworks */,
+				CF7AD66AE061805AA04FFD98 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B38E9071F67DCEB00EBE673 /* PBXTargetDependency */,
+			);
+			name = JRAlbumTests;
+			productName = JRAlbumTests;
+			productReference = 2B38E9051F67DCEB00EBE673 /* JRAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B38E8E91F67DCEB00EBE673 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JingRuiWangKe;
+				TargetAttributes = {
+					2B38E8F01F67DCEB00EBE673 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XEBB5N4BA;
+						ProvisioningStyle = Automatic;
+					};
+					2B38E9041F67DCEB00EBE673 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 3XEBB5N4BA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B38E8F01F67DCEB00EBE673;
+					};
+				};
+			};
+			buildConfigurationList = 2B38E8EC1F67DCEB00EBE673 /* Build configuration list for PBXProject "JRAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B38E8E81F67DCEB00EBE673;
+			productRefGroup = 2B38E8F21F67DCEB00EBE673 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B38E8F01F67DCEB00EBE673 /* JRAlbum */,
+				2B38E9041F67DCEB00EBE673 /* JRAlbumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B38E8EF1F67DCEB00EBE673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B38E8FF1F67DCEB00EBE673 /* LaunchScreen.storyboard in Resources */,
+				2B38E8FC1F67DCEB00EBE673 /* Assets.xcassets in Resources */,
+				2B38E8FA1F67DCEB00EBE673 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B38E9031F67DCEB00EBE673 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F491AD9802181A175690A8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0E6E6A7AB4E0FE4211474F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B85C13BB75055AABBAE90E21 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAlbum/Pods-JRAlbum-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C683BE93D8DCA7EC4AF5B510 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAlbum/Pods-JRAlbum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF7AD66AE061805AA04FFD98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAlbumTests/Pods-JRAlbumTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F161A75C0376A21849AF05D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JRAlbumTests/Pods-JRAlbumTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B38E8ED1F67DCEB00EBE673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B38E8F71F67DCEB00EBE673 /* ViewController.swift in Sources */,
+				2B38E8F51F67DCEB00EBE673 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B38E9011F67DCEB00EBE673 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B38E90A1F67DCEB00EBE673 /* JRAlbumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B38E9071F67DCEB00EBE673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B38E8F01F67DCEB00EBE673 /* JRAlbum */;
+			targetProxy = 2B38E9061F67DCEB00EBE673 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B38E8F81F67DCEB00EBE673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B38E8F91F67DCEB00EBE673 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B38E8FD1F67DCEB00EBE673 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B38E8FE1F67DCEB00EBE673 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B38E90C1F67DCEB00EBE673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B38E90D1F67DCEB00EBE673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B38E90F1F67DCEB00EBE673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C01C9066A4C0CA7B500110 /* Pods-JRAlbum.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JRAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B38E9101F67DCEB00EBE673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 459BA54737BF63B8E9BA2BE1 /* Pods-JRAlbum.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JRAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2B38E9121F67DCEB00EBE673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE8C1B75B986116CC70BDCD /* Pods-JRAlbumTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JRAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRAlbum.app/JRAlbum";
+			};
+			name = Debug;
+		};
+		2B38E9131F67DCEB00EBE673 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D3FD3472BFC1FF8E2473E6B /* Pods-JRAlbumTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3XEBB5N4BA;
+				INFOPLIST_FILE = JRAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingruiwangke.JRAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRAlbum.app/JRAlbum";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B38E8EC1F67DCEB00EBE673 /* Build configuration list for PBXProject "JRAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B38E90C1F67DCEB00EBE673 /* Debug */,
+				2B38E90D1F67DCEB00EBE673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B38E90E1F67DCEB00EBE673 /* Build configuration list for PBXNativeTarget "JRAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B38E90F1F67DCEB00EBE673 /* Debug */,
+				2B38E9101F67DCEB00EBE673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B38E9111F67DCEB00EBE673 /* Build configuration list for PBXNativeTarget "JRAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B38E9121F67DCEB00EBE673 /* Debug */,
+				2B38E9131F67DCEB00EBE673 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B38E8E91F67DCEB00EBE673 /* Project object */;
+}
